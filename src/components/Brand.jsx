@@ -8,7 +8,7 @@ export default function Brand({ compact = false }) {
       aria-label="Derkenar ana sayfa"
     >
       <img
-        src="/favicon.svg"
+        src="/brand/favicon.svg"
         alt=""
         className="brand-logo"
         aria-hidden="true"
