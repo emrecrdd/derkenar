@@ -61,7 +61,7 @@ export default function HomePage() {
           </div>
           <div className="phone-pair">
             <DeviceShot src="/screenshots/dosyaya-sor.jpg" alt="Derkenar AI Dosyaya Sor ekranı"/>
-            <DeviceShot src="/screenshots/ai-calisma-alani.jpg" alt="Derkenar AI hukuki ön değerlendirme ekranı" className="phone-shift"/>
+            <DeviceShot src="/screenshots/ai.jpg" alt="Derkenar AI hukuki ön değerlendirme ekranı" className="phone-shift"/>
           </div>
         </div>
       </section>
