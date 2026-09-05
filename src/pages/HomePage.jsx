@@ -29,9 +29,115 @@ import {
 export default function HomePage() {
   return (
     <Layout>
-      <PremiumIntro />
+      <section className="hero hero-home">
+        <div className="hero-orb hero-orb-a" />
+        <div className="hero-orb hero-orb-b" />
 
-      <section className="trust-strip" id="home-content">
+        <div className="container hero-grid-main">
+          <div className="hero-copy-main">
+            <span className="hero-kicker">
+              <span />
+              Hukuk büroları için tek çalışma sistemi
+            </span>
+
+            <div className="trial-badge">
+              <Sparkles size={15} />
+              7 GÜN ÜCRETSİZ DENEME
+            </div>
+
+            <h1>
+              Hukuk büronuzun tüm operasyonu,{' '}
+              <em>tek merkezde.</em>
+            </h1>
+
+            <p>
+              Dava ve müvekkillerden belgelere, görev ve
+              duruşmalardan finans ve ekip iletişimine kadar
+              günlük işlerinizi Derkenar’da yönetin. UYAP UDF
+              desteği ve dosya bağlamıyla çalışan Derkenar AI
+              ile hukuki çalışma süreçlerinizi hızlandırın.
+            </p>
+
+            <div className="hero-actions-main">
+              <a
+                className="btn btn-gold btn-lg"
+                href="/iletisim/"
+              >
+                7 Gün Ücretsiz Deneyin
+                <ArrowRight size={18} />
+              </a>
+
+              <a
+                className="btn btn-ghost-light btn-lg"
+                href="/iletisim/"
+              >
+                Canlı Demo Talep Et
+              </a>
+            </div>
+
+            <div className="trial-note">
+              <CheckCircle2 size={16} />
+
+              <span>
+                Canlı demo sonrasında Derkenar’ı 7 gün boyunca
+                ücretsiz kullanarak değerlendirin.
+              </span>
+            </div>
+
+            <div className="hero-proof">
+              <span>
+                <CheckCircle2 />
+                Dava & müvekkil
+              </span>
+
+              <span>
+                <CheckCircle2 />
+                Belge & UDF
+              </span>
+
+              <span>
+                <CheckCircle2 />
+                Görev & takvim
+              </span>
+
+              <span>
+                <CheckCircle2 />
+                AI & finans
+              </span>
+            </div>
+          </div>
+
+          <div className="hero-visual">
+            <div className="visual-label">
+              DERKENAR · OFİS KONTROL PANELİ
+            </div>
+
+            <DeviceShot
+              src="/screenshots/dashboard.png"
+              alt="Derkenar hukuk bürosu kontrol paneli"
+              phone={false}
+            />
+
+            <div className="hero-float hero-float-ai">
+              <BrainCircuit />
+              <div>
+                <strong>Derkenar AI</strong>
+                <span>Dosya bağlamıyla çalışır</span>
+              </div>
+            </div>
+
+            <div className="hero-float hero-float-sec">
+              <ShieldCheck />
+              <div>
+                <strong>Kontrollü erişim</strong>
+                <span>Rol ve kullanıcı bazlı yetki</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="trust-strip">
         <div className="container trust-grid">
           <span>
             <ShieldCheck />
@@ -520,7 +626,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <Faq />
+<Faq />
       <Cta />
     </Layout>
   );
