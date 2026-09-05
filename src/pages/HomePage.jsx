@@ -3,6 +3,7 @@ import Layout from '../components/Layout.jsx';
 import SectionTitle from '../components/SectionTitle.jsx';
 import DeviceShot from '../components/DeviceShot.jsx';
 import FeatureCard from '../components/FeatureCard.jsx';
+import Faq from '../components/Faq.jsx';
 import Cta from '../components/Cta.jsx';
 
 import {
@@ -625,7 +626,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
+<Faq />
       <Cta />
     </Layout>
   );

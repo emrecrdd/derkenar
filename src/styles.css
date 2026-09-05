@@ -205,3 +205,181 @@
     font-size: 12px;
   }
 }
+.faq-section {
+  position: relative;
+}
+
+.faq-heading {
+  max-width: 720px;
+  margin: 0 auto 44px;
+  text-align: center;
+}
+
+.faq-eyebrow {
+  display: inline-block;
+  margin-bottom: 12px;
+
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+
+  color: #9b782f;
+}
+
+.faq-heading h2 {
+  margin: 0;
+
+  color: #07182f;
+
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+.faq-heading p {
+  max-width: 620px;
+  margin: 18px auto 0;
+
+  color: rgba(7, 24, 47, 0.68);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.faq-list {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 12px;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(7, 24, 47, 0.1);
+  border-radius: 16px;
+
+  background: #fff;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.faq-item:hover {
+  border-color: rgba(7, 24, 47, 0.18);
+}
+
+.faq-item-open {
+  border-color: rgba(184, 144, 59, 0.35);
+
+  box-shadow:
+    0 12px 30px rgba(7, 24, 47, 0.07);
+}
+
+.faq-question {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  padding: 21px 24px;
+
+  border: 0;
+  background: transparent;
+
+  color: #07182f;
+
+  font: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+
+  text-align: left;
+  cursor: pointer;
+}
+
+.faq-chevron {
+  flex-shrink: 0;
+
+  color: #a88137;
+
+  transition: transform 0.25s ease;
+}
+
+.faq-item-open .faq-chevron {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  display: grid;
+  grid-template-rows: 0fr;
+
+  transition:
+    grid-template-rows 0.28s ease;
+}
+
+.faq-answer > div {
+  overflow: hidden;
+}
+
+.faq-answer-open {
+  grid-template-rows: 1fr;
+}
+
+.faq-answer p {
+  margin: 0;
+  padding: 0 24px 22px;
+
+  color: rgba(7, 24, 47, 0.7);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.faq-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  margin-top: 30px;
+
+  color: rgba(7, 24, 47, 0.65);
+  font-size: 14px;
+}
+
+.faq-contact a {
+  color: #8e6b25;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.faq-contact a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .faq-heading {
+    margin-bottom: 30px;
+  }
+
+  .faq-question {
+    padding: 18px;
+    font-size: 15px;
+  }
+
+  .faq-answer p {
+    padding:
+      0 18px 18px;
+
+    font-size: 14px;
+  }
+
+  .faq-contact {
+    flex-direction: column;
+    gap: 4px;
+
+    text-align: center;
+  }
+}
