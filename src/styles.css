@@ -157,3 +157,51 @@
   font-size: 14px;
   font-weight: 700;
 }
+.trial-badge {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+
+  margin: 18px 0 4px;
+  padding: 8px 12px;
+
+  border: 1px solid rgba(214, 177, 92, 0.35);
+  border-radius: 999px;
+
+  background: rgba(214, 177, 92, 0.1);
+  color: #e6c777;
+
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.trial-note {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  margin-top: 14px;
+
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.trial-note svg {
+  flex-shrink: 0;
+  color: #d6b15c;
+}
+
+@media (max-width: 640px) {
+  .trial-badge {
+    margin-top: 14px;
+    font-size: 11px;
+  }
+
+  .trial-note {
+    align-items: flex-start;
+    font-size: 12px;
+  }
+}
