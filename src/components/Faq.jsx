@@ -18,10 +18,10 @@ const questions = [
       'Canlı demo sonrasında Derkenar’ı 7 gün boyunca ücretsiz kullanarak değerlendirebilirsiniz. Deneme sürecinin amacı sistemi kendi çalışma düzeniniz içinde deneyebilmenizdir.'
   },
   {
-    question: 'Derkenar hangi hukuk büroları için uygundur?',
-    answer:
-      'Derkenar özellikle dava ve danışmanlık ağırlıklı çalışan; dava, müvekkil, belge, görev, duruşma, toplantı, finans ve ekip süreçlerini tek merkezden yönetmek isteyen hukuk büroları için geliştirilmiştir.'
-  },
+  question: 'Derkenar hangi hukuk büroları için tasarlandı?',
+  answer:
+    'Derkenar; yapay zekâyı yalnızca metin üretmek için değil, doğrudan dosya üzerinde çalışmak için kullanmak isteyen hukuk büroları için geliştirilmiştir. Derkenar AI; dosyadaki belgeleri, dava kayıtlarını, duruşmaları, görevleri ve notları birlikte değerlendirerek dosyanın mevcut durumunu analiz eder; stratejik noktaları, çelişki ve tutarsızlıkları, önemli tespitleri, delilleri ve dikkat edilmesi gereken hususları ortaya çıkarmaya yardımcı olur. Duruşma öncesinde dosya bağlamına göre hazırlık yapılmasını, eksiklerin belirlenmesini, belgelerin analiz edilmesini ve gerekli iş adımlarının oluşturulmasını destekler. Tüm bunlar dava, müvekkil, belge, görev, duruşma, takvim, finans ve ekip yönetimiyle aynı sistem içinde çalışır.'
+},
   {
     question: 'UYAP UDF dosyalarını Derkenar içinde görüntüleyebilir miyim?',
     answer:
@@ -30,13 +30,13 @@ const questions = [
   {
   question: 'Derkenar AI ne yapar?',
   answer:
-    'Derkenar AI, yalnızca genel sorulara yanıt veren bir yapay zekâ değildir; dava kayıtları, görevler, duruşmalar, toplantılar, notlar ve analiz edilmiş belgelerden oluşan dosya bağlamıyla çalışır. Dosyaya Sor, Duruşmaya Hazırla, Dosyayı Tamamla, Belge Analizi ve otomatik görev oluşturma gibi araçlarla hukuki çalışma sürecinizi hızlandırır ve dosya üzerindeki kontrolünüzü güçlendirir.'
+    'Derkenar AI, yalnızca genel sorulara yanıt veren bir yapay zekâ değildir; dava kayıtları, görevler, duruşmalar, toplantılar, notlar ve analiz edilmiş belgelerden oluşan dosya bağlamıyla çalışır. Belgeleri ve dosya içeriğini birlikte değerlendirerek önemli tespitleri, çelişki ve tutarsızlıkları, delilleri, riskli noktaları ve dikkat edilmesi gereken hususları ortaya çıkarmaya yardımcı olur. Dosyaya Sor, Duruşmaya Hazırla, Dosyayı Tamamla, Belge Analizi ve otomatik görev oluşturma gibi araçlarla dosyanın mevcut durumuna göre hazırlık yapılmasını, eksiklerin belirlenmesini ve sonraki iş adımlarının planlanmasını destekler.'
 },
   {
-    question: 'Derkenar AI avukatın yerine hukuki karar verir mi?',
-    answer:
-      'Hayır. Derkenar AI hukuki çalışma süreçlerini destekleyen bir araçtır. Eğitilmiş yapay zekâ tarafından oluşturulan içerik ve değerlendirmelerin hukuki işlem öncesinde kullanıcı tarafından kontrol edilmesi gerekir.'
-  },
+  question: 'Derkenar AI avukatın yerine hukuki karar verir mi?',
+  answer:
+    'Derkenar AI, avukatın hukuki kararını ikame etmek için değil; karar ve hazırlık sürecini güçlendirmek için tasarlanmıştır. Dosya kapsamındaki kayıt ve belgeleri tarar, benzer uyuşmazlık ve geçmiş dava örüntülerini araştırma sürecinde değerlendirmeye yardımcı olur, çelişki ve eksikleri ortaya çıkarır, delil ve önemli tespitleri belirginleştirir, olası strateji ve yaklaşım seçenekleri üretir. Duruşma öncesi hazırlık, dosya tamamlama, belge analizi ve sonraki iş adımlarının oluşturulmasında dosya bağlamına göre destek sağlar. Nihai hukuki değerlendirme ve karar ise her zaman avukata aittir.'
+},
   {
     question: 'Kullanıcıların erişim yetkileri belirlenebilir mi?',
     answer:
