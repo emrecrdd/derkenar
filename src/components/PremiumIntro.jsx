@@ -42,7 +42,7 @@ export default function PremiumIntro() {
       <div className="premium-intro-content container">
         <div className="premium-intro-brand">
           <img
-            src="/brand/favicon-v3.svg"
+            src="/brand/favicon.svg"
             alt=""
             aria-hidden="true"
           />
