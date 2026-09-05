@@ -8,17 +8,13 @@
     content="width=device-width, initial-scale=1.0"
   />
 
-  <link
-    rel="icon"
-    type="image/svg+xml"
-    href="/brand/favicon.svg"
-  />
-
-  <title>Derkenar | Hukuk Bürosu Yönetim Sistemi</title>
+  <title>
+    Derkenar | Yapay Zekâ Destekli Hukuk Bürosu Yönetim Sistemi
+  </title>
 
   <meta
     name="description"
-    content="Derkenar; dava, müvekkil, belge, görev, duruşma, finans, ofis iletişimi, UYAP UDF ve yapay zekâ destekli çalışma araçlarını tek merkezde birleştiren hukuk bürosu yönetim sistemidir."
+    content="Derkenar; dava, müvekkil, belge, görev, duruşma, takvim, finans ve dosya bağlamıyla çalışan Derkenar AI'ı tek sistemde birleştiren hukuk bürosu yönetim sistemidir."
   />
 
   <meta
@@ -37,10 +33,22 @@
   />
 
   <link
+    rel="icon"
+    type="image/svg+xml"
+    href="/brand/favicon.svg"
+  />
+
+  <link
+    rel="shortcut icon"
+    href="/brand/favicon.svg"
+  />
+
+  <link
     rel="manifest"
     href="/site.webmanifest"
   />
 
+  <!-- Open Graph -->
   <meta
     property="og:type"
     content="website"
@@ -58,12 +66,12 @@
 
   <meta
     property="og:title"
-    content="Derkenar | Hukuk Bürosu Yönetim Sistemi"
+    content="Derkenar | Yapay Zekâ Destekli Hukuk Bürosu Yönetim Sistemi"
   />
 
   <meta
     property="og:description"
-    content="Derkenar; dava, müvekkil, belge, görev, duruşma, finans, ofis iletişimi, UYAP UDF ve yapay zekâ destekli çalışma araçlarını tek merkezde birleştiren hukuk bürosu yönetim sistemidir."
+    content="Dosyanızı yalnızca takip etmeyin. Derkenar AI ile dosyanızla çalışın."
   />
 
   <meta
@@ -77,19 +85,67 @@
   />
 
   <meta
+    property="og:image:alt"
+    content="Derkenar hukuk bürosu yönetim sistemi kontrol paneli"
+  />
+
+  <!-- Twitter / X -->
+  <meta
     name="twitter:card"
     content="summary_large_image"
   />
 
+  <meta
+    name="twitter:title"
+    content="Derkenar | Yapay Zekâ Destekli Hukuk Bürosu Yönetim Sistemi"
+  />
+
+  <meta
+    name="twitter:description"
+    content="Dosya bağlamıyla çalışan yapay zekâ destekli hukuk bürosu yönetim sistemi."
+  />
+
+  <meta
+    name="twitter:image"
+    content="https://derkenar.com.tr/screenshots/dashboard.png"
+  />
+
+  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Derkenar",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "description": "Hukuk bürosu yönetim, dava takip, belge, görev, takvim, finans ve yapay zekâ destekli çalışma sistemi.",
-    "url": "https://derkenar.com.tr/"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://derkenar.com.tr/#organization",
+        "name": "Derkenar",
+        "url": "https://derkenar.com.tr/",
+        "email": "derkenariletisim@gmail.com",
+        "telephone": "+905537934281"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://derkenar.com.tr/#website",
+        "url": "https://derkenar.com.tr/",
+        "name": "Derkenar",
+        "inLanguage": "tr-TR",
+        "publisher": {
+          "@id": "https://derkenar.com.tr/#organization"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://derkenar.com.tr/#software",
+        "name": "Derkenar",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://derkenar.com.tr/",
+        "description": "Yapay zekâ destekli hukuk bürosu yönetim sistemi. Dava, müvekkil, belge, görev, duruşma, takvim, finans ve dosya bağlamıyla çalışan Derkenar AI aynı sistemde.",
+        "publisher": {
+          "@id": "https://derkenar.com.tr/#organization"
+        }
+      }
+    ]
   }
   </script>
 </head>

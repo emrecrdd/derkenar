@@ -2,31 +2,67 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/svg+xml" href="/brand/favicon.svg" />
-  <link rel="shortcut icon" href="/brand/favicon.svg" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
 
-  <title>Derkenar Demo Talep Et | Hukuk Bürosu Yönetim Sistemi</title>
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="/brand/favicon.svg"
+  />
+
+  <link
+    rel="shortcut icon"
+    href="/brand/favicon.svg"
+  />
+
+  <title>
+    Derkenar Demo Talep Et | Hukuk Bürosu Yönetim Sistemi
+  </title>
 
   <meta
     name="description"
-    content="Derkenar için canlı demo talep edin. Hukuk büronuzun ihtiyaçlarına göre dava, belge, AI, görev, takvim, finans ve güvenlik özelliklerini birlikte inceleyin."
+    content="Derkenar için canlı demo talep edin ve 7 günlük ücretsiz deneme hakkında bilgi alın. Dava, belge, Derkenar AI, görev, takvim, finans ve güvenlik özelliklerini hukuk büronuzun ihtiyaçlarına göre inceleyin."
   />
 
-  <meta name="robots" content="index,follow,max-image-preview:large" />
-  <meta name="theme-color" content="#07182f" />
+  <meta
+    name="robots"
+    content="index,follow,max-image-preview:large"
+  />
+
+  <meta
+    name="theme-color"
+    content="#07182f"
+  />
 
   <link
     rel="canonical"
     href="https://derkenar.com.tr/iletisim/"
   />
 
-  <link rel="manifest" href="/site.webmanifest" />
+  <link
+    rel="manifest"
+    href="/site.webmanifest"
+  />
 
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="tr_TR" />
-  <meta property="og:site_name" content="Derkenar" />
+  <!-- Open Graph -->
+  <meta
+    property="og:type"
+    content="website"
+  />
+
+  <meta
+    property="og:locale"
+    content="tr_TR"
+  />
+
+  <meta
+    property="og:site_name"
+    content="Derkenar"
+  />
 
   <meta
     property="og:title"
@@ -35,7 +71,7 @@
 
   <meta
     property="og:description"
-    content="Derkenar için canlı demo talep edin. Hukuk büronuzun ihtiyaçlarına göre dava, belge, AI, görev, takvim, finans ve güvenlik özelliklerini birlikte inceleyin."
+    content="Derkenar'ı canlı demoda inceleyin ve 7 günlük ücretsiz deneme süreci hakkında bilgi alın."
   />
 
   <meta
@@ -48,19 +84,83 @@
     content="https://derkenar.com.tr/screenshots/dashboard.png"
   />
 
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    property="og:image:alt"
+    content="Derkenar hukuk bürosu yönetim sistemi"
+  />
 
-  <form name="demo-talebi" data-netlify="true" hidden>
+  <!-- Twitter / X -->
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  />
+
+  <meta
+    name="twitter:title"
+    content="Derkenar Demo Talep Et | Hukuk Bürosu Yönetim Sistemi"
+  />
+
+  <meta
+    name="twitter:description"
+    content="Canlı demo talep edin ve Derkenar'ı 7 gün ücretsiz değerlendirme süreci hakkında bilgi alın."
+  />
+
+  <meta
+    name="twitter:image"
+    content="https://derkenar.com.tr/screenshots/dashboard.png"
+  />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Derkenar Demo ve İletişim",
+    "url": "https://derkenar.com.tr/iletisim/",
+    "description": "Derkenar hukuk bürosu yönetim sistemi için canlı demo ve ücretsiz deneme talep sayfası.",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Derkenar",
+      "url": "https://derkenar.com.tr/",
+      "email": "derkenariletisim@gmail.com",
+      "telephone": "+905537934281"
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Derkenar",
+      "url": "https://derkenar.com.tr/"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Netlify Forms tarafından build sırasında algılanması için -->
+  <form
+    name="demo-talebi"
+    method="POST"
+    data-netlify="true"
+    hidden
+  >
+    <input
+      type="hidden"
+      name="form-name"
+      value="demo-talebi"
+    />
+
     <input name="ad-soyad" />
     <input name="hukuk-burosu" />
     <input name="telefon" />
     <input name="email" />
     <textarea name="mesaj"></textarea>
   </form>
-</head>
 
-<body>
   <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
+
+  <script
+    type="module"
+    src="/src/main.jsx"
+  ></script>
 </body>
 </html>
