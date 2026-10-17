@@ -105,9 +105,9 @@ const questions = [
   },
 
   {
-    question: '7 günlük ücretsiz deneme nasıl çalışıyor?',
+    question: '5 günlük ücretsiz deneme nasıl çalışıyor?',
     answer:
-      'Canlı demo sonrasında Derkenar’ı 7 gün boyunca ücretsiz kullanarak değerlendirebilirsiniz. Böylece sistemi ve Derkenar AI özelliklerini kendi hukuk büronuzun çalışma düzeni içinde deneyebilirsiniz.'
+      'Canlı demo sonrasında Derkenar’ı 5 gün boyunca ücretsiz kullanarak değerlendirebilirsiniz. Böylece sistemi ve Derkenar AI özelliklerini kendi hukuk büronuzun çalışma düzeni içinde deneyebilirsiniz.'
   },
 
   {

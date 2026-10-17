@@ -95,7 +95,7 @@ export default function AiPage() {
                 className="btn btn-gold btn-lg"
                 href="/iletisim/"
               >
-                7 Gün Ücretsiz Deneyin
+                5 Gün Ücretsiz Deneyin
                 <ArrowRight size={18} />
               </a>
 
