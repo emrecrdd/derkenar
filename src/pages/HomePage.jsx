@@ -42,7 +42,7 @@ export default function HomePage() {
 
             <div className="trial-badge">
               <Sparkles size={15} />
-              5GÜN ÜCRETSİZ DENEME
+              5 GÜN ÜCRETSİZ DENEME
             </div>
 
             <h1>
@@ -63,7 +63,7 @@ export default function HomePage() {
                 className="btn btn-gold btn-lg"
                 href="/iletisim/"
               >
-                5Gün Ücretsiz Deneyin
+                5 Gün Ücretsiz Deneyin
                 <ArrowRight size={18} />
               </a>
 
@@ -79,7 +79,7 @@ export default function HomePage() {
               <CheckCircle2 size={16} />
 
               <span>
-                Canlı demo sonrasında Derkenar’ı 5gün boyunca
+                Canlı demo sonrasında Derkenar’ı 5 gün boyunca
                 ücretsiz kullanarak değerlendirin.
               </span>
             </div>
